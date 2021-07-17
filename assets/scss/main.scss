@@ -9,9 +9,11 @@
 @import "base/typography";
 
 //layout
-
+@import "layout/header";
+@import "layout/main-section";
 
 //components
+@import "components/buttons";
 
 //pages
 @import "pages/index.scss"

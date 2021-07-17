@@ -1,7 +1,51 @@
-
-.header {
-    background-image: url("assets/img/post-image.jpg");
+nav {
+    background-color: $Eeirie-black;
+    .nav-link {
+        color: $white;
+    }
+}
+header {
+    background-image: url("/assets/img/post-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color: $white;
     padding: 3.180rem 3.150rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main {
+    color: $Nickel;
+    .span {
+        color: $Spanish-pink;
+    }
+}
+section {
+    .naomi {
+        color: $Eeirie-black;
+    }
+    .insta {
+        color: $Ruddy-pink;
+    }
+    .parrafo {
+        color: $Nickel;
+        text-align: justify;
+    }
+}
+div.page {
+    background-color: $platinum;
+    padding: 5px;
+    .page-item {
+        color: $Raisin-black;
+    }
+}
+footer {
+    background-color: $Raisin-black;
+    .img {
+        width: 115px;
+        height: 55px;
+        text-align: center;
+    }
 }

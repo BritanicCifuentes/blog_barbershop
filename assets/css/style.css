@@ -9930,11 +9930,59 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.header {
-  background-image: url("assets/img/post-image.jpg");
+nav {
+  background-color: #121619;
+}
+nav .nav-link {
+  color: #FFF;
+}
+
+header {
+  background-image: url("/assets/img/post-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  color: #FFF;
   padding: 3.18rem 3.15rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  color: #6C6E70;
+}
+main .span {
+  color: #ECBCBA;
+}
+
+section .naomi {
+  color: #121619;
+}
+section .insta {
+  color: #D76C69;
+}
+section .parrafo {
+  color: #6C6E70;
+  text-align: justify;
+}
+
+div.page {
+  background-color: #E6E7E7;
+  padding: 5px;
+}
+div.page .page-item {
+  color: #222323;
+}
+
+footer {
+  background-color: #222323;
+}
+footer .img {
+  width: 115px;
+  height: 55px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
