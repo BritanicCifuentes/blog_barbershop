@@ -11,5 +11,22 @@ $Raisin-black: #222323;
 $Nickel: #6C6E70;
 
 //Typeface
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+$roboto:'Roboto', sans-serif;
+$roboto-light:300;
+$roboto-regular:400;
+
+$playflair-display:'Playfair Display', serif;
+$playflair-display_regular-italic: 400;
+$playflair-display_black-italic: 900;
+
+
+// font sizes
+
+$xx-large: 10vh;
+$x-large: 3vh;
+$large: 18px;
+$medium: 16px;
+$small: 12px;

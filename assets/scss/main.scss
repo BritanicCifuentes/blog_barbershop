@@ -6,16 +6,14 @@
 @import "vendors/bootstrap4.6/bootstrap.scss";
 
 //base
-@import "base/typography";
 
 //layout
-@import "layout/header";
-@import "layout/main-section";
 
 //components
 @import "components/buttons";
+@import "components/pagination";
 
 //pages
-@import "pages/index.scss"
+@import "pages/index.scss";
 
 //themes

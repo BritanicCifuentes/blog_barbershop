@@ -1,40 +1,87 @@
 nav {
     background-color: $Eeirie-black;
     .nav-link {
-        color: $white;
+        color: $white !important;
+    }
+    .nav-link:hover {
+        color: $Ruddy-pink !important;
     }
 }
 header {
     background-image: url("/assets/img/post-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: $white;
     padding: 3.180rem 3.150rem;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    .texto {
+        font-family: $playflair-display;
+        font-weight: $playflair-display_black-italic;
+        font-size: $xx-large;
+        font-style: italic;
+        color: $white;
+        text-align: center;
+    }
+    .texto1 {
+        font-family: $playflair-display;
+        font-weight: $playflair-display_black-italic;
+        font-size: $xx-large;
+        color: $white;
+        text-align: center;
+        font-style: italic;
+    }
+    .icono {
+        position: absolute;
+        filter: invert(1);
+        width: 50px;
+        height: 45px;
+        top: 86%;
+    }
 }
 main {
-    color: $Nickel;
+    color: $Raisin-black;
+    margin-top: 50px;
+    .fecha {
+        color: $Eeirie-black;
+        font-family: $playflair-display;
+        font-weight: $playflair-display_regular-italic;
+        margin-bottom: 30px;
+        font-style: italic;
+    }
+    .cuerpo {
+        font-family: $roboto;
+        font-weight: $roboto-light;
+        margin-bottom: 30px;
+    }
     .span {
-        color: $Spanish-pink;
+        font-family: $roboto;
+        font-weight: $roboto-light;
+        color: $Ruddy-pink;
     }
 }
 section {
     .naomi {
         color: $Eeirie-black;
+        font-family: $playflair-display;
+        font-weight: $playflair-display_black-italic;
+        font-style: italic;
     }
     .insta {
         color: $Ruddy-pink;
+        font-family: $roboto;
+        font-weight: $roboto-regular;
     }
     .parrafo {
         color: $Nickel;
         text-align: justify;
+        font-family: $roboto;
+        font-weight: $roboto-light;
     }
 }
-div.page {
+article {
     background-color: $platinum;
     padding: 5px;
     .page-item {
@@ -43,9 +90,13 @@ div.page {
 }
 footer {
     background-color: $Raisin-black;
+    .centrado {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .img {
         width: 115px;
         height: 55px;
-        text-align: center;
     }
 }
